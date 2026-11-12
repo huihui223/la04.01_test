@@ -1,0 +1,4 @@
+[submodule "framework"]
+	path = framework
+	url = /Users/zhanglanhui/projects/test-wrapper/la04.01_test/.git/agentdocs-fixture-origin.git
+	branch = main

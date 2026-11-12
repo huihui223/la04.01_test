@@ -1,0 +1,6 @@
+{
+  "name": "la-agentdocs-install-test",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local fixture for the MDP agentdocs automatic installation path"
+}

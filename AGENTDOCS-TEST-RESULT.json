@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "elapsedMs": 2873,
+  "realGitAndNpm": true,
+  "stages": [
+    "正在自动准备 agentdocs CLI，完成后继续执行知识工具",
+    "正在同步 agentdocs CLI 子模块（UAT_80）",
+    "正在安装 agentdocs CLI 源码依赖",
+    "正在将 agentdocs CLI 安装到前端项目",
+    "agentdocs CLI 准备完成，继续执行知识工具"
+  ],
+  "rootInstalls": 1,
+  "search": {
+    "ok": true,
+    "data": {
+      "project": {
+        "scope": "la-fixture:909dac3247ae30a96dd533495b2adc0bd5b75251a38b4945445ed3fc21882177",
+        "name": "LA installation fixture"
+      },
+      "results": [
+        {
+          "source": "agentdocs",
+          "title": "fixture:agentdocs:installation",
+          "location": "agentdocs/fixture:agentdocs:installation",
+          "excerpt": "AGENTDOCS_INSTALL_OK：本地测试子模块 CLI 已自动安装，测试知识检索成功。",
+          "truncated": false,
+          "read": {
+            "target": {
+              "kind": "agentdocs",
+              "identity": "fixture:agentdocs:installation",
+              "sections": [
+                "安装验证"
+              ]
+            }
+          }
+        }
+      ],
+      "sources": [
+        {
+          "source": "repo_wiki",
+          "state": "empty",
+          "documents": 0,
+          "units": 0,
+          "failedFiles": 0,
+          "issues": [],
+          "omittedIssueCount": 0
+        },
+        {
+          "source": "knowledge_card",
+          "state": "empty",
+          "documents": 0,
+          "units": 0,
+          "failedFiles": 0,
+          "issues": [],
+          "omittedIssueCount": 0
+        },
+        {
+          "source": "rule",
+          "state": "empty",
+          "documents": 0,
+          "units": 0,
+          "failedFiles": 0,
+          "issues": [],
+          "omittedIssueCount": 0
+        },
+        {
+          "source": "public_doc",
+          "state": "empty",
+          "documents": 0,
+          "units": 0,
+          "failedFiles": 0,
+          "issues": [],
+          "omittedIssueCount": 0
+        },
+        {
+          "source": "agentdocs",
+          "state": "ready",
+          "documents": 0,
+          "units": 1,
+          "failedFiles": 0,
+          "issues": [],
+          "omittedIssueCount": 0
+        }
+      ],
+      "completeness": "complete",
+      "outcome": "matched"
+    }
+  },
+  "read": {
+    "ok": true,
+    "data": {
+      "project": {
+        "scope": "la-fixture:909dac3247ae30a96dd533495b2adc0bd5b75251a38b4945445ed3fc21882177",
+        "name": "LA installation fixture"
+      },
+      "items": [
+        {
+          "source": "agentdocs",
+          "title": "fixture:agentdocs:installation",
+          "section": "安装验证",
+          "location": "agentdocs/fixture:agentdocs:installation",
+          "content": "{\n  \"type\": \"docs.get\",\n  \"data\": {\n    \"identity\": \"fixture:agentdocs:installation\",\n    \"content\": \"# 安装验证\\nAGENTDOCS_INSTALL_OK\\n本地测试 CLI 已正常执行。此内容仅用于测试自动安装、search 和 read 链路。\"\n  }\n}",
+          "truncated": false,
+          "warnings": []
+        }
+      ]
+    }
+  }
+}
